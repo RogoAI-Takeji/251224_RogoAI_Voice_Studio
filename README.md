@@ -4,6 +4,9 @@
 
 VOICEVOXのキャラクター音声と、Coqui TTSによる自分の声のクローン生成を、1つの画面で操作できる統合ツールです。
 
+![Version](https://img.shields.io/badge/version-1.9.2-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+
 ---
 
 ## ⚠️ 重要：最初にお読みください (Important Notice)
@@ -61,7 +64,7 @@ VOICEVOXのキャラクター音声と、Coqui TTSによる自分の声のクロ
 
 ### 手順
 
-1. **[Releasesページ](https://github.com/RogoAI-Takeji/for_youtube/releases)** から最新のZIPファイルをダウンロードします。
+1. **[Releasesページ](https://github.com/RogoAI-Takeji/251224_RogoAI_Voice_Studio/releases)** から最新のZIPファイルをダウンロードします。
 2. 任意の場所に解凍します。
    - **⚠️注意:** 解凍後のフォルダにある `user\_data` フォルダは削除するか、空にしておいてください（他者の設定が残っているのを防ぐため）。
 3. **`RogoAI\_Voice\_Studio\_v1.9.2.exe`** (または起動バッチファイル) をダブルクリックして起動します。
