@@ -109,3 +109,6 @@ VOICEVOXのキャラクター音声と、Coqui TTSによる自分の声のクロ
 ---
 
 *Created by Takejii (RogoAI)*
+**RogoAI-Takeji**
+* YouTube: 老後AI (RogoAI)
+* App ID: `takejii_app_002`
