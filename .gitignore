@@ -1,0 +1,15 @@
+# Pythonの一時ファイル
+__pycache__/
+*.pyc
+
+# ユーザーデータ（絶対除外）
+user_data/
+config.json
+
+# ビルド用の一時フォルダ
+build_temp/
+src/dist/
+
+# ★修正: 配布用フォルダの中身はすべて無視（Gitに上げない）
+dist/*
+!dist/.gitkeep
