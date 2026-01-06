@@ -1,15 +1,113 @@
-# Pythonの一時ファイル
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 
-# ユーザーデータ（絶対除外）
-user_data/
-config.json
+# Build and Distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# ビルド用の一時フォルダ
-build_temp/
-src/dist/
+# PyInstaller
+*.manifest
+*.spec
 
-# ★修正: 配布用フォルダの中身はすべて無視（Gitに上げない）
-dist/*
-!dist/.gitkeep
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Project Specific
+*.zip
+tree.txt
+
+# Logs and Temporary Files
+*.log
+*.tmp
+temp/
+tmp/
+
+# Test Files
+test_*.py
+*_test.py
+tests/__pycache__/
+
+# Distribution Archives (keep releases in GitHub Releases, not in repo)
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+
+# Large Binary Files (models should be downloaded separately)
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+*.bin
+models/
+
+# User Data
+outputs/
+input_files/
+
+# Documentation Build
+docs/_build/
+site/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Coverage Reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Legacy version (v1.9.2 available in Releases)
+ver_1_9_2/

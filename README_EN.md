@@ -38,14 +38,6 @@ An integrated voice synthesis application combining VOICEVOX, Coqui TTS, and fas
 
 ## 📦 Download
 
-### 📅 About the Repository Name
-
-The prefix `251224` in the repository name represents the **initial public release date** (December 24, 2024, in YYMMDD format).
-
-**All versions are managed in this repository via [Releases](https://github.com/RogoAI-Takeji/251224_RogoAI_Voice_Studio/releases).**
-
----
-
 ### ⚡ EXE Version (Recommended for Beginners)
 
 **EXE version is recommended for v2.4+** - No Python environment required, download and use immediately!
